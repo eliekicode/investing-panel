@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/Komodo/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Users/Komodo/Lab/solo/projects/investing-panel/artisan",
+                "boost:mcp"
+            ]
+        }
+    }
+}
