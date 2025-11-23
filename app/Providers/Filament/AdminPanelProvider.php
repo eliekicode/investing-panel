@@ -32,8 +32,9 @@ class AdminPanelProvider extends PanelProvider
             ->login(Login::class)
             ->colors([
                 'primary' => Color::Amber,
+                'gray' => Color::Slate,
             ])
-            ->darkMode(isForced: true)
+            // ->darkMode(isForced: true)
             ->maxContentWidth(Width::ScreenTwoExtraLarge)
             ->sidebarCollapsibleOnDesktop()
             ->viteTheme('resources/css/filament/admin/theme.css')
